@@ -216,7 +216,7 @@ void delete_student(int n)
 {
 	student stud;
 	ifstream iFile;
-	iFile.open("student.dat, ios::binary");
+	iFile.open("student.dat", ios::binary);
 	if(!iFile)
 	{
 		cout<<"File could not be opened... Press any Key to exit...";
